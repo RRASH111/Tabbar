@@ -7,11 +7,14 @@ const Hero = () => {
   return (
     <div>
     <div className="flex flex-col items-center justify-center h-screen ">
-        <div className="text-center text-8xl">Welcome to TabBar</div>
-        <div className="text-center text-3xl pt-2">Your Productivity Command Center for Chrome!</div>
+        <div className="text-center bg:text-8xl md:text-5xl sm:text-2xl">Welcome to TabBar</div>
+        <div className="text-center bg:text-3xl md:text-2xl sm:text-xl pt-2">Your Productivity Command Center for Chrome!</div>
             <div className="flex flex-col items-center justify-center"> 
             <Link href='https://www.google.com/'>
-                <Button variant='outline' className='mr-5 mt-5 text-xl rounded-xl shadow-xl bg-slate-800 p-6 hover:bg-slate-200 hover:text-black'>
+            <Button
+                variant='outline'
+                className='mr-5 mt-5 p-4 sm:p-6 text-xl sm:text-lg md:text-xl lg:text-2xl rounded-xl shadow-xl bg-slate-800 hover:bg-slate-200 hover:text-black'
+                >
                 <Chrome className='mr-2 h-6 w-6'/> Download for Chrome 
                 </Button>
             </Link>
