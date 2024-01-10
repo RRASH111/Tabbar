@@ -8,12 +8,12 @@ const Help = () => {
           className='rounded-xl shadow-2xl shadow-white/30'
         />
         <div className="text-start ml-16 mb-48">
-          <Image src={'/logo.png'} width={50} height={50} alt="logo" className="inline-block w-12 mb-6"/>
+          <Image src={'/Logo.png'} width={50} height={50} alt="logo" className="inline-block w-12 mb-6"/>
           <h1 className="text-xl">Get Started</h1>
           <p>1. Pin the Estention in your browser for easy access</p>
           <p>2. Open TabBar in any page by pressing <span className='shortcut'>Ctrl</span> <span className='shortcut'>⇧</span> <span className='shortcut'>K</span>
           for Windows,</p>
-          <p> OR <span className='shortcut'>⌘</span> <span className='shortcut'>⇧</span> <span className='shortcut'>K</span> For MAC</p>
+          <p> OR <span className='shortcut'>⌘</span> <span className='shortcut'>⇧</span> <span className='shortcut'>K</span> For MAC.</p>
         </div>
     </div>
     
