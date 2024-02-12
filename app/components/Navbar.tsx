@@ -19,9 +19,11 @@ const Navbar = () => {
     <div className='px-2 text-l text-slate-50 hover:text-blue-600'><Link href='/Help'>Help</Link></div>
   </div>
   <div className='hidden md:block'> {/* Hide on small screens */}
+  <Link href='https://chromewebstore.google.com/detail/tabbar-bookmark-history-t/gkkfhngobmbklnhnlmlgdfjoikmcfppp'>
     <Button variant='outline' className='mr-5 text-l rounded-xl bg-slate-800 p-2 mt-2 hover:bg-slate-200 hover:text-black'>
       <Chrome className='mr-2 h-6 w-6'/> Download for Chrome 
     </Button>
+    </Link>
   </div>
   <div className='md:hidden'> {/* Show on small screens */}
     
