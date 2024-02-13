@@ -12,11 +12,11 @@ const Navbar = () => {
   </div>
   <div className='hidden md:flex justify-center flex-1 mt-2'> {/* Hide on small screens */}
     <div className='px-5 text-xl text-slate-50 hover:text-blue-600'><Link href='/'>Home</Link></div>
-    <div className='px-5 text-xl text-slate-50 hover:text-blue-600'><Link href='/Help'>Help</Link></div>
+    <div className='px-5 text-xl text-slate-50 hover:text-blue-600'><Link href='/help'>Help</Link></div>
   </div>
   <div className='md:hidden flex items-center'> {/* Show on small screens */}
     <div className='px-2 text-l text-slate-50 hover:text-blue-600'><Link href='/'>Home</Link></div>
-    <div className='px-2 text-l text-slate-50 hover:text-blue-600'><Link href='/Help'>Help</Link></div>
+    <div className='px-2 text-l text-slate-50 hover:text-blue-600'><Link href='/help'>Help</Link></div>
   </div>
   <div className='hidden md:block'> {/* Hide on small screens */}
   <Link href='https://chromewebstore.google.com/detail/tabbar-bookmark-history-t/gkkfhngobmbklnhnlmlgdfjoikmcfppp'>

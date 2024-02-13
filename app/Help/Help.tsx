@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Help = () => {
+const help = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-slate-900">
   <div className="flex flex-col md:flex-row items-center md:items-start">
@@ -25,4 +25,4 @@ const Help = () => {
   )
 }
 
-export default Help
+export default help
